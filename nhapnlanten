@@ -1,0 +1,11 @@
+#include"stdio.h"
+#include"conio.h"
+#include"math.h"
+int main()
+{
+	int i,n;
+	printf("nhap so lan");
+	scanf("%d",&n);
+for (i=0;i<n;i++)
+{printf("mai thy\n");}
+getch();}
