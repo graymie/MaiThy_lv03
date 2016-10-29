@@ -1,0 +1,14 @@
+#include"stdio.h"
+#include"conio.h"
+#include"math.h"
+int main()
+{
+	int i,n,k;
+	printf("nhap n");
+	scanf("%d",&n);
+	printf("nhap k");
+	scanf("%d",&k);
+	for(i=0;i<n;i++)
+	{if ((i%k)==0)
+	printf("%d\n",i);}
+	getch();}
